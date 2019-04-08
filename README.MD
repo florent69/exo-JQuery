@@ -47,7 +47,7 @@ Une fois un élément sélectionné, on veut pouvoir faire des opérations sur c
 * supprimer un élément;
 * cacher l'élément.
 
-Commencez par réaliser le cours 'HTML dynamique' de codecademy.
+Commencez par réaliser le cours ['HTML dynamique'](https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery) de codecademy.
 
 L'objectif de l'exercice est d'utiliser uniquement du code Javascript pour faire les modifications. Autrement dit, interdiction de modifier le fichier index.html ( ça serait un peu trop facile... )
 
@@ -74,7 +74,7 @@ Maintenant que nous savons sélectionné puis manipulé le DOM, il nous reste un
 * la souris de l'utilisateur est en train de rentrer dans la div d'id 'toto';
 * l'utilisateur est en train de redimensionner la fenêtre;  
 
-Commencez par réaliser le cours 'événements JQuery' de codecademy.
+Commencez par réaliser le cours ['événements JQuery'](https://www.codecademy.com/courses/learn-jquery/lessons/mouse-events/exercises/intro-to-mouse-events) de codecademy.
 
 Notre site est un site d'e-commerce, nous alons vouloir réagir à certains événements de l'utilisateur sur cette page, nous allons le faire à l'aide de JQuery :
 
