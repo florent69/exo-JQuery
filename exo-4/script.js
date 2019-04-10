@@ -20,6 +20,7 @@ $(document).ready(function () {
     let $article = 0;
     let $cart = $('#myNavbar a:last');
     let $img = $('img');
+
     // $img.on('click', () => {
     //     $article = $article + 1;
     //     $cart.html('<a href="#">\n' +
@@ -34,8 +35,11 @@ $(document).ready(function () {
     // puisque l'offre correspond à 25 ipads...
 
     for (let x = 0; x < $img.length; x++) {
-        $('img:eq(' + x + ')').on('mouseenter', () => {
+        $('img:eq(' + x + ')').on('mouseenter', (event) => {
             console.log('L\'utilisateur regarde l\'image ' + (x+1));
+            let $content = $(event.currentTarget).parents('.panel').find('.panel-footer').text();
+            console.log('L\'utilisateur regarde l\'image ' + $content);
+
         }).on('click', () => {
             if (x === 0) {
                 $article = $article + 25;
