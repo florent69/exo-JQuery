@@ -48,8 +48,7 @@ $(document).ready(function () {
             } else if (x === 2) {
                 $article = $article + 50;
             }
-            $cart.html('<a href="#">\n' +
-                '<span class="glyphicon glyphicon-shopping-cart"></span> Cart(' + $article + ')</a>')
+            $cart.html('<span class="glyphicon glyphicon-shopping-cart"></span> Cart(' + $article + ')</a>')
         })
     }
 
@@ -59,7 +58,7 @@ $(document).ready(function () {
     $('input').on('click', () => {
         console.log('un utilisateur est en train de remplir le champ pour la newsletter')
     }).on('input', () => {
-        console.log('l\' utilisateur a tapé qelque chose dedans !!');
+        console.log('l\' utilisateur a tapé quelque chose dedans !!');
     });
 
 
