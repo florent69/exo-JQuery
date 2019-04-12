@@ -3,8 +3,6 @@ console.log("exercice 5");
 $(document).ready(function () {
 // 1. trouvez sur internet trois images : une de pierre, une de feuille et l'autre de ciseaux;
 // 2. créez dans votre page HTML une section qui contient ces trois images sur une même ligne;
-
-
 // 4. maintenant créez une div avec l'id userChoice, et remplacez le contenu de cette div par le choix de l'utilisateur;
         let $userChoice = $('<div></div>').attr('id', 'userChoice').addClass("image text-center ");
         let $divFont = $('<div></div>').attr('style', 'font-size:100px');

@@ -4,14 +4,30 @@
 <head>
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
+
 </head>
 
 <body>
-    <div class="container">
-    </div>
+<div class="container" >
+    <form method="post">
+        <div>
+            <label>Email :</label>
+            <input type="email" name="email" class="form-control" size="50" placeholder="Email Address">
+        </div>
+        <div>
+            <label>Password :</label>
+            <input type="password" name="password" class="form-control" size="50" placeholder="(6 characters minimum)">
+        </div>
+        <div>
+            <input type="button" name="button" value="Se connecter">
+        </div>
+    </form>
+</div>
 </body>
 
 </html>
